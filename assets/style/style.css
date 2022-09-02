@@ -111,7 +111,7 @@ section main .content-left p {
 }
 
 section main .content-left .buttons {
-    margin: 2rem 0 0 0;
+    margin: 3rem 0 0 0;
     text-align: left;
     display: flex;
     align-items: center;
