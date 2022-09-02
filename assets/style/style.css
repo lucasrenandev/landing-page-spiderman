@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -63,7 +63,6 @@ section {
     width: 100%;
     height: calc(100% - 100px);
     display: flex;
-    flex-wrap: wrap;
     position: relative;
 }
 
@@ -147,10 +146,13 @@ section .content-right {
 }
 
 section .content-right figure {
-    position: absolute;
-    bottom: -100px;
+    width: 100%;
+    height: 100%;
 }
 
 section .content-right figure img {
     width: 750px;
+    position: absolute;
+    bottom: -150px;
+    right: 100px;
 }
